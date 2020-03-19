@@ -1,0 +1,45 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+            "path" : "pages/tabbar/index/index",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabbar/search/search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabbar/my/my",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "安庆XXX云祭奠",
+		"navigationBarBackgroundColor": "#2aad67",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+	"list":[
+		{
+			"iconPath":"static/tabbar/index.png",
+			"selectedIconPath":"static/tabbar/index-select.png",
+			"pagePath":"pages/tabbar/index/index",
+			"text":"首页"
+		},
+		{
+			"iconPath":"static/tabbar/mail.png",
+			"selectedIconPath":"static/tabbar/mail-select.png",
+			"pagePath":"pages/tabbar/search/search",
+			"text":"搜索"
+		},
+		{
+			"iconPath":"static/tabbar/my.png",
+			"selectedIconPath":"static/tabbar/my-select.png",
+			"pagePath":"pages/tabbar/my/my",
+			"text":"我的"
+		}
+	]
+	}
+	
+}

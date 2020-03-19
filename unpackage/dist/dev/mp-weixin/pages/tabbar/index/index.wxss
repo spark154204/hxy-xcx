@@ -1,0 +1,11 @@
+
+.bg-muted {
+	background-color: #6fad8b !important;
+}
+.bg-green {
+	background-color: #2aad67;
+}
+.text-color {
+	color: #7e7e7e;
+}
+
