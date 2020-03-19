@@ -28,24 +28,24 @@
 								<text class="text-color">创建人：</text>
 								<text style="font-size: 30rpx;">安庆市民政局</text>
 							</view>
-							<view style="display: flex;height: 48rpx;line-height: 48rpx;">
+							<view style="display: flex;height: 48rpx;line-height: 48rpx;width: 450rpx;justify-content: space-between;">
 								<view>
 									<image src="../../../static/tabbar/my-select.png" mode="" style="height: 30rpx;width: 30rpx;"></image>
 									<text class="text-color">上香数：</text>
 									<text style="font-size: 30rpx;">86</text>
 								</view>
-								<view style="margin-left: 60rpx;">
+								<view style="width: 200rpx;display: flex;align-items: center;">
 									<image src="../../../static/tabbar/my-select.png" mode="" style="height: 30rpx;width: 30rpx;"></image>
 									<text class="text-color">献花数：</text>
 									<text style="font-size: 30rpx;">84</text>
 								</view>
 							</view>
-							<view style="display: flex;height: 48rpx;line-height: 48rpx;">
+							<view style="display: flex;height: 48rpx;line-height: 48rpx;width: 450rpx;justify-content: space-between;">
 								<view>
 									<text class="text-color">生辰：</text>
 									<text style="font-size: 30rpx;color: #7e7e7e;">1927</text>
 								</view>
-								<view>
+								<view style="width: 200rpx;display: flex;align-items: center;">
 									<text class="text-color">逝世：</text>
 									<text class="text-color">1949</text>
 								</view>
